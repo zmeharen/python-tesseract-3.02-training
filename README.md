@@ -4,7 +4,7 @@ python-tesseract-3.02-training
 A script to partially automate the training of new fonts/languages with Tesseract 3.02 - part of the Open ICR Project:
 http://opensource.newmediaist.com/open-source-icr.html
 
-<p>The <a href="https://code.google.com/p/tesseract-ocr/">Tesseract OCR Engine</a> is a powerful open source text recognition engine, designed specifically for machine-printed text (fonts). Tesseract can be trained to both improve recognition accuracy, as well as teach it new languages. Training Tesseract is just another way of saying adding new fonts to tesseract. Training Tesseract 3.02 can be difficult for the novice though, as the <a href="https://code.google.com/p/tesseract-ocr/wiki/TrainingTesseract3">official instructions</a> are long and complex. We built a simple Python script to >somewhat< automate the Tesseract 3.02 language file build process. 
+<p>The <a href="https://code.google.com/p/tesseract-ocr/">Tesseract OCR Engine</a> is a powerful open source text recognition engine, designed specifically for machine-printed text (fonts). Tesseract can be trained to both improve recognition accuracy, as well as teach it new languages. Training Tesseract is just another way of saying adding new fonts to tesseract. Training Tesseract 3.02 can be difficult for the novice though, as the <a href="https://code.google.com/p/tesseract-ocr/wiki/TrainingTesseract3">official instructions</a> are long and complex. We built a simple Python script to somewhat automate the Tesseract 3.02 language file build process. 
 </p>
 
 <h2>How to use</h2>
@@ -18,3 +18,4 @@ Save your training image and box file into the same directory as the training sc
   <b>python traininscript.py language fontname</b>
 </p>
 </p>
+<p>Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a></p>
