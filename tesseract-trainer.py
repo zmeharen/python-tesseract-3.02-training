@@ -18,7 +18,7 @@ for files in os.listdir(directory):
         #Train the boxfiles
         rename = 'mv '+files+' '+language+'.'+fontname+'.exp'+str(count)+'.tif'
         os.system(rename)
-        command='tesseract eng.'+fontname+'.exp'+str(count)+'.tif eng.'+fontname+'.exp'+str(count)+' nobatch box.train.stderr'
+        command='tesseract '+language+'.'+fontname+'.exp'+str(count)+'.tif '+language+'.'+fontname+'.exp'+str(count)+' nobatch box.train.stderr'
         print command   
         os.system(command)
         count = count + 1
